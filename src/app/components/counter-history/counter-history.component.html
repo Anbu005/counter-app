@@ -1,0 +1,17 @@
+<div class="card p-4 mt-4">
+    <div class="history-section mb-3">
+        <h4 class="mb-0">History</h4>
+        @if (counterHistory.length) {
+            <button class="btn btn-sm btn-secondary" (click)="reset()">Reset</button>
+        }
+    </div>
+    <ul class="history-list">
+        @if (counterHistory.length) {
+            <li class="history-item" *ngFor="let history of counterHistory">
+                {{history}}
+            </li>
+        } @else {
+            <li class="no-history">No history found</li>
+        }
+    </ul>
+</div>

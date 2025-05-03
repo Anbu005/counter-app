@@ -1,0 +1,38 @@
+.counter-container {
+    width: 500px;
+    margin: auto;
+
+    @media (max-width: 576px) {
+        width: 90%;
+    }
+
+    .wrapper-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        @media (max-width: 576px) {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .counter-section {
+            text-align: center;
+
+            .counter-text {
+                font-size: 25px;
+                font-weight: 600;
+                color: #555;
+            }
+        }
+
+        .btn-section {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            @media (max-width: 576px) {
+                flex-direction: column;
+            }
+        }
+    }
+}
