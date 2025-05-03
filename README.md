@@ -1,4 +1,4 @@
-# 🧮 Counter App – Jr Software Engineer Coding Test
+# 🧮 Counter App with History Tracking
 
 A simple counter application built with **Angular**.
 
@@ -39,7 +39,7 @@ Build a Counter App that allows users to increment, decrement, and reset a count
 
 ## 🛠️ Tech Stack
 
-- **Angular** (vX.X.X)
+- **Angular** (v19.2)
 - **Bootstrap 5**
 - **SCSS**
 
@@ -49,7 +49,7 @@ Build a Counter App that allows users to increment, decrement, and reset a count
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/counter-app.git
+git clone https://github.com/Anbu005/counter-app.git
 
 # Navigate to the project directory
 cd counter-app
@@ -59,3 +59,6 @@ npm install
 
 # Run the application
 ng serve
+
+# Run in the browser
+Visit the app in your browser at: http://localhost:4200
